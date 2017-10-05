@@ -5,36 +5,27 @@
     
     .ht-header-page__photo-sector {
         width: 100%;
-        height: 70vh;
+        height: 60vh;
     }
 
     .ht-logo-sector {
         display: none;
     }
 
+    .ht-header-page__nav-menu {
+        padding: 5% 0 0 8%;
+    }
+
+    
+
     .ht-header-page__info-sector {
         width: 100%;
     }
 
-    .ht-header-page__nav-menu {
-        padding: 5% 0 0 0;
-    }
-
-    .ht-nav__menu-link {
-        display: block;
-        margin: 2% 0 0 0;
-        padding: 0 0 0 8%;
-    }
-
     .ht-header-page__self-info {
-        margin: 5% 8% 0 8%;
+        margin: 15% 8% 15% 8%;
     }
-
-    .ht-inform-sector__button {
-        padding: 0 0 5% 0;
-    }
-
-
+    
     /* second line */
     .ht-main-content__about-me-section {
         flex-direction: column;
@@ -42,28 +33,30 @@
 
     .ht-main-content__progress-about-me {
         width: 100%;
-        flex-direction: column;
     }
 
-    .ht-main-content__self-photo {
-        width: 100%;
-        height: 50vh;
+    .ht-main-content__self-photo,
+    .ht-main-content__skills-sector {
+        width: 50%;
     }
 
-    .ht-main-content__skills-sector,
     .ht-main-content__text-about-me {
         width: 100%;
     }
 
+
+
     /* third line */
-    .ht-main-content__skills-sections,
-    .ht-main-content__double-section {
-        width: 100%;
+    .ht-main-content__skills-sections {
         flex-direction: column;
     }
 
-    .ht-main-content__skill-sector {
+    .ht-main-content__double-section {
         width: 100%;
+    }
+
+    .ht-main-content__skill-sector {
+        width: 50%;
     }
 
     .ht-main-content__skill-sector_orange {
@@ -83,32 +76,24 @@
     .ht-main-content__exp-info {
         width: 100%;
     }
-
   
-    /* sixth line */
-    .ht-skill-content__describe-text_big-qout {
-        font-size: 1.3em;
-    }
-
     /* seventh line */
-    .ht-main-content__feedback-section,
-    .ht-main-content__contact-section {
-        width: 100%;
+    .ht-main-content__feedback-section {
         flex-direction: column;
     }
 
     .ht-main-content__form-section,
+    .ht-main-content__contact-section {
+        width: 100%;
+    }
+
     .ht-main-content__contact-photo,
     .ht-main-content__contact-data {
-        width: 100%;
+        width: 50%;
     }
 
     .ht-main-content__contact-data {
         box-sizing: border-box;
-    }
-
-    .ht-main-content__contact-photo {
-        height: 50vh;
     }
 
     /*  footer */

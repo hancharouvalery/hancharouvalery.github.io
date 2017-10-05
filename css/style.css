@@ -24,16 +24,16 @@ html {
     font-size: 14px;
 }
 
-/* PAGE FIRST LINE*/
+/* PAGE HEADER (1st line)*/
 .ht-header-page__head-section {
     display: flex;
-    height: 100vh;
 }
 
-/* ---- left sectiom ---- */
+/* ---- photo sector ---- */
 
 .ht-header-page__photo-sector {
     width: 50%;
+    height: auto;
     background-color: #f0e2d7;
     background-image: url(../img/5.jpg);
     background-repeat: no-repeat;
@@ -57,15 +57,16 @@ html {
 /* NAVIGATION BLOCK */
 .ht-header-page__info-sector {
     width: 50%;
+    height: auto;
     background-color: #f0e2d7;
 }
 
-.ht-nav__menu {
-    margin: 5% 0 0 13%;
+.ht-header-page__nav-menu {
+    padding: 5% 0 0 13%;
 }
 
 .ht-nav__menu-link {
-    padding: 1em;
+    padding: 2%;
     color: #6e6a5f;
     font-weight: bold;
     text-decoration: none;
@@ -81,9 +82,8 @@ html {
 
 /* INFORMATION BLOCK */
 
-.ht-header-page__self-text {
-    margin: 22% 0 0 0;
-    padding: 0 8%;    
+.ht-header-page__self-info {
+    margin: 22% 8% 28% 8%;
 }
 
 .ht-inform-sector__par {
@@ -108,11 +108,13 @@ html {
     white-space: nowrap;
 }
 
-/* BUTTON BLOCK */
+/* button sector */
+.ht-inform-sector__button {
+    margin: 3% 0 0 0;
+}
 
-.ht-button-sector__start-button {
+.ht-inform-sector__start-button {
     display: inline-block;
-    margin: 3% 0 5% 8%;
     padding: 10px 35px;
     font-size: .8em;
     font-weight: bold;
@@ -125,51 +127,53 @@ html {
     opacity: .9;
 }
 
-.ht-button-sector__start-button:hover {
+.ht-inform-sector__start-button:hover {
     color: #dbb66f;
     border-color: #dbb66f;
 }
 
+/* ****************************************** */
+
 /* PAGE SECOND LINE */
 
-.ht-self-skills__about-me-section {
+.ht-main-content__about-me-section {
     display: flex;
-    height: 50vh;
 }
 
-.ht-self-skills__text-about-me {
+/* left side */
+
+.ht-main-content__text-about-me {
     width: 50%;
-    padding: 3% 0;
+    box-sizing: border-box;
+    padding: 3.5% 2%;
     background-color: #fff;
 }
 
-.ht-auctor-sector__describe-text {
-    padding: 0.5% 5%;
+.ht-author-sector__describe-text {
+    padding: 0 0 2% 0;
 }
 
-/* abot me block - text styles */
-
-.ht-auctor-sector__describe-text_big-font {
-    font-size: 2.5em;
+.ht-author-sector__describe-text_big-font {
+    font-size: 2.6em;
     opacity: .8;
 }
 
-.ht-auctor-sector__describe-text_or-font {
+.ht-author-sector__describe-text_orange {
     color: #efbc6b;
 }
 
-.ht-auctor-sector__describe-text_font-text {
+.ht-author-sector__describe-text_font-text {
     opacity: .6;
 }
 
-/* skills block */
+/* right side */
 
-.ht-self-skills__progress-about-me {
+.ht-main-content__progress-about-me {
     display: flex;
     width: 50%;
 }
 
-.ht-self-skills__self-photo {
+.ht-main-content__self-photo {
     width: 50%;
     background-color: #fff;
     background-image: url(../img/1.jpg);
@@ -178,11 +182,14 @@ html {
     background-size: cover;
 }
 
-.ht-self-skills__skills {
+.ht-main-content__skills-sector {
     width: 50%;
-    padding: 7%  8%;
+    padding: 5% 5% 6% 6%;
+    box-sizing: border-box;
     background-color: #e4ae58;
 }
+
+/* SKIILS BAR SECTOR */
 
 .ht-skill-progress__progress-name {
     margin: 15px 0 10px 0;
@@ -191,60 +198,36 @@ html {
 }
 
 /*progress bar */
-
-.ht-skill-progress__design {
+.ht-skill-progress__progress-bar {
     background: #fff;
     height: 2px;
     position: relative;
-    overflow: hidden;
 }
 
-.ht-skill-progress__design::before {
-    content: '';
+.ht-skill-progress__done-progress {
     position: absolute;
+    top: 0; left: 0;
     height: 2px;
+    background: #000000;
+}
+
+.ht-skill-progress__done-progress-ninety-per {
     width: 90%;
-    background: #000000;
 }
 
-.ht-skill-progress__backend {
-    background: #fff;
-    height: 2px;
-    position: relative;
-    overflow: hidden;
-}
-
-.ht-skill-progress__backend::before {
-    content: '';
-    position: absolute;
-    height: 2px;
+.ht-skill-progress__done-progress-seventy-per {
     width: 70%;
-    background: #000000;
 }
 
-.ht-skill-progress__html-css {
-    background: #fff;
-    height: 2px;
-    position: relative;
-    overflow: hidden;
-}
-
-.ht-skill-progress__html-css::before {
-    content: '';
-    position: absolute;
-    height: 2px;
+.ht-skill-progress__done-progress-eighty-per {
     width: 80%;
-    background: #000000;
 }
 
 /* skills block - text styles */
 
 .ht-skill-progress__text-head,
-.ht-skill-progress__design-per,
-.ht-skill-progress__backend-per,
-.ht-skill-progress__html-css-per {
+.ht-skill-progress__describe-text-white {
     color: #fff;
-    
 }
 
 .ht-skill-progress__text-head {
@@ -252,31 +235,29 @@ html {
 }
 
 .ht-skill-progress__text-head_big-font {
-    font-size: 2.4em;
+    font-size: 2.6em;
 }
 
-.ht-skill-progress__design-name,
-.ht-skill-progress__backend-name,
-.ht-skill-progress__html-css-name,
-.ht-skill-progress__design-per,
-.ht-skill-progress__backend-per,
-.ht-skill-progress__html-css-per {
+.ht-skill-progress__describe-text {
+    color: #181818;
     font-weight: bold;
     white-space: nowrap;
 }
 
+/* *************************************** */
+
 /* PAGE THIRD LINE */
 
-.ht-skills-panel__skills-sections {
-    display: flex;
-    height: 50vh;
-}
-
-.ht-skills-panel__double-block {
+.ht-main-content__skills-sections {
     display: flex;
 }
 
-.ht-skills-panel__skill-sector {
+.ht-main-content__double-section {
+    display: flex;
+    width: 50%;
+}
+
+.ht-main-content__skill-sector {
     width: 50%;
     padding: 6% 2%;
 }
@@ -285,6 +266,7 @@ html {
 
 .ht-skill-content {
     text-align: center;
+
 }
 
 .ht-skill-content__describe-text {
@@ -296,41 +278,42 @@ html {
 }
 
 .ht-skill-content__describe-text_opacity {
-    opacity: .7;
+    opacity: .8;
 }
 
 /* block color modificator */
 
-.ht-skills-panel__skill-sector_orange {
+.ht-main-content__skill-sector_orange {
     background-color: #e4ae58;
     color: #fff;
 }
 
-.ht-skills-panel__skill-sector_rose {
+.ht-main-content__skill-sector_rose {
     background-color: #e9714c;
     color: #fff;
 }
 
-.ht-skills-panel__skill-sector_black {
+.ht-main-content__skill-sector_black {
     background-color: #161616;
     color: #fff;
 }
 
-.ht-skills-panel__skill-sector_white {
+.ht-main-content__skill-sector_white {
     background-color: #fff;
-    color: black;
+    color: #3B3B3B;
 }
+
+/* ************************************** */
 
 /* FOURTH LINA PAGE */ 
 
-.ht-self-exp__exp-section {
+.ht-main-content__exp-section {
     display: flex;
-    height: auto;
 }
 
 /* left block */
 
-.ht-self-exp__exp-photo {
+.ht-main-content__exp-photo {
     width: 50%;
     background-color: #f0e2d7;
     background-repeat: no-repeat;
@@ -338,19 +321,19 @@ html {
     background-size: cover;
 }
 
-.ht-self-exp__exp-photo_phone-img {
+.ht-main-content__exp-photo_phone-img {
     background-image: url(../img/4.jpg);
 }
 
 /* right block */
 
-.ht-self-exp__exp-info {
+.ht-main-content__exp-info {
     width: 50%;
     padding: 0 0 2% 0;
     color: #fff;
 }
 
-.ht-self-exp__exp-info_rose {
+.ht-main-content__exp-info_rose {
     background-color: #e9714c;
 }
 
@@ -385,7 +368,6 @@ html {
 .ht-my-exp__text-head {
     display: inline-block;
     font-size: 2em;
-    
 }
 
 .ht-my-exp__text-date {
@@ -403,15 +385,15 @@ html {
 
 /* FIFTH LANE */
 
-.ht-self-exp__self-exp-section_direction {
+.ht-main-content__exp-section_direction {
     flex-direction: row-reverse;
 }
 
-.ht-self-exp__exp-photo_pen-img {
+.ht-main-content__exp-photo_pen-img {
     background-image: url(../img/3.jpg);
 }
 
-.ht-self-exp__exp-info_yellow {
+.ht-main-content__exp-info_yellow {
     background-color: #e4ae58;
 }
 
@@ -421,65 +403,62 @@ html {
 
 /* SIXTH LINE */
 
-.ht-quot__quot-section {
+.ht-main-content__quot-section {
     width: 100%;
-    height: 60vh;
-    color: #CECECE;
+    color: #CECDCD;
     background-image: url(../img/6.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
 }
 
-.ht-quot__quot-sector {
-    padding: 7% 20%;
+.ht-main-content__quot-sector {
+    padding: 6% 23%;
+    position: relative;
+}
+
+.ht-main-content__quot-sector::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top:0; right: 0; bottom: 0; left: 0;
+    background-color: #000000;
+    z-index: 5;
+    opacity: .5;
+}
+
+.ht-skill-content__describe-text_layout {
     position: relative;
     z-index: 10;
 }
 
-.ht-quot-content {
-    text-align: center;
-}
-
-.ht-quot-content__describe-text {
+.ht-skill-content__describe-text_position {
     margin: 5% 0;
 }
 
-.ht-quot__quot-section::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 60vh;
-    background-color: #000000;
-    z-index: 5;
-    opacity: .4;
-}
-
-.ht-quot-content__describe-text_big {
+.ht-skill-content__describe-text_big-qout {
     font-size: 2.5em;
 }
 
-.ht-quot-content__describe-text_opacity {
-    opacity: .8;
+.ht-skill-content__describe-text_opacity {
+    opacity: .6;
 }
 
 /* SEVETH LINE */
 
 /* left section */
 
-.ht-feedback__feedback-section {
+.ht-main-content__feedback-section {
     display: flex;
-    height: auto;
 }
 
-.ht-feedback__form-section {
+.ht-main-content__form-section {
     width: 50%;
     background-color: #e9714c;
     color: #DBDBDB;
 }
 
-.ht-feedback__container {
+.ht-main-content__container {
     padding: 6% 4%;
 }
 
@@ -520,16 +499,19 @@ html {
 }
 
 /* !!!!!! PLACEHOLDERS !!!!!!!! */
-::-webkit-input-placeholder { /* WebKit browsers */
+.ht-testimonial__input::-webkit-input-placeholder { /* WebKit browsers */
     color: #DBDBDB;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+.ht-testimonial__input:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: #DBDBDB;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+.ht-testimonial__message::-webkit-input-placeholder { /* WebKit browsers */
     color: #DBDBDB;
 }
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+
+.ht-testimonial__message:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: #DBDBDB;
 }
 /* --------------------------------- */
@@ -550,12 +532,12 @@ html {
 
 /*right section */
 
-.ht-feedback__contact-section {
+.ht-main-content__contact-section {
     width: 50%;
     display: flex;
 }
 
-.ht-feedback__contact-photo {
+.ht-main-content__contact-photo {
     width: 50%;
     background-image: url(../img/2.jpg);
     background-repeat: no-repeat;
@@ -563,7 +545,7 @@ html {
     background-size: cover;
 }
 
-.ht-feedback__contact-data {
+.ht-main-content__contact-data {
     width: 50%;
     padding: 4% 6%;
     background-color: #161616;
@@ -646,16 +628,13 @@ html {
     background-color: #dbb66f;
 }
 
-@media (max-width: 1100px) {
-    .ht-nav__menu {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding: 0 8%; 
-    }
-
+@media (max-width: 1000px) {
+    .ht-header-page__nav-menu {
+        padding: 5% 0 0 8%;
+    }  
+    
     .ht-nav__menu-link {
-        padding: 5px 0;
+        padding: 1%;
     }
 }
 
