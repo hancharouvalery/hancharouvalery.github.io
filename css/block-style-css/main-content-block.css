@@ -1,0 +1,176 @@
+.ht-main-content__about-me-section {
+    display: flex;
+}
+
+.ht-main-content__text-about-me {
+    width: 50%;
+    background-color: #fff;
+}
+
+.ht-main-content__text-about-container {
+    box-sizing: border-box;
+    padding: 6% 4%;
+}
+
+.ht-main-content__progress-about-me {
+    display: flex;
+    width: 50%;
+}
+
+.ht-main-content__self-photo {
+    width: 50%;
+    background-color: #fff;
+    background-image: url(../../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.ht-main-content__self-skill-sector {
+    width: 50%;
+    background-color: #e4ae58;
+}
+
+.ht-main-content__self-skill-sector-container {
+    box-sizing: border-box;
+    padding: 7% 6% 13% 12%;
+}
+
+.ht-main-content__skills-sections {
+    display: flex;
+}
+
+.ht-main-content__double-section {
+    display: flex;
+    width: 50%;
+}
+
+.ht-main-content__skill-sector {
+    width: 50%;
+}
+
+.ht-main-content__skill-sector-container {
+    padding: 13% 6%;
+}
+
+.ht-main-content__skill-sector_orange {
+    background-color: #e4ae58;
+    color: #fff;
+}
+
+.ht-main-content__skill-sector_rose {
+    background-color: #e9714c;
+    color: #fff;
+}
+
+.ht-main-content__skill-sector_black {
+    background-color: #161616;
+    color: #fff;
+}
+
+.ht-main-content__skill-sector_white {
+    background-color: #fff;
+    color: #3B3B3B;
+}
+
+.ht-main-content__exp-section {
+    display: flex;
+}
+
+.ht-main-content__exp-photo {
+    width: 50%;
+    background-color: #f0e2d7;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: cover;
+}
+
+.ht-main-content__exp-photo_phone-img {
+    background-image: url(../../img/4.jpg);
+}
+
+.ht-main-content__exp-info {
+    width: 50%;
+    color: #fff;
+}
+
+.ht-main-page__exp-info-container {
+    padding: 0 0 3% 0;
+}
+
+.ht-main-content__exp-info_rose {
+    background-color: #e9714c;
+}
+
+.ht-main-content__exp-section_direction {
+    flex-direction: row-reverse;
+}
+
+.ht-main-content__exp-photo_pen-img {
+    background-image: url(../../img/3.jpg);
+}
+
+.ht-main-content__exp-info_yellow {
+    background-color: #e4ae58;
+}
+
+.ht-main-content__quot-section {
+    width: 100%;
+    color: #CECDCD;
+    background-image: url(../../img/6.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.ht-main-content__quot-sector {
+    position: relative;
+    padding: 6% 23%;
+}
+
+.ht-main-content__quot-sector::before {
+    content: '';
+    position: absolute;
+    top:0; right: 0; bottom: 0; left: 0;
+    z-index: 5;
+    display: block;
+    background-color: #000000;
+    opacity: .5;
+}
+
+.ht-main-content__feedback-section {
+    display: flex;
+}
+
+.ht-main-content__form-section {
+    width: 50%;
+    background-color: #e9714c;
+    color: #ECEBEB;
+}
+
+.ht-main-content__container {
+    padding: 6% 4%;
+}
+
+.ht-main-content__contact-section {
+    display: flex;
+    width: 50%;
+}
+
+.ht-main-content__contact-photo {
+    width: 50%;
+    background-image: url(../../img/2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.ht-main-content__contact-data {
+    width: 50%;
+    background-color: #161616;
+    color: #fff;
+}
+
+.ht-main-content__contact-data-container {
+    padding: 5% 2% 0 12%;
+}
