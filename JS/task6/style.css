@@ -14,6 +14,7 @@ footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 
 .headerMonth__container {
     width: 315px;
+    min-width: 320px;
     display: flex;
 }
 
