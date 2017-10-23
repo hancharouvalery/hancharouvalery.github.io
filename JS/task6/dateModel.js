@@ -1,5 +1,5 @@
 function CalendarMonth(year, month) {
-    this.monthArray = ["Januar", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    this.monthArray = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
     this.currentDate = new Date();
     this.currentYear = this.currentDate.getFullYear();
     this.currentMonthNumber = this.currentDate.getMonth()
