@@ -13,7 +13,7 @@ footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 }
 
 .headerMonth__container {
-    width: 350px;
+    width: 315px;
     display: flex;
 }
 
@@ -49,25 +49,25 @@ footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 }
 
 .daysContainer {
-    width: 350px;
+    width: 315px;
     display: flex;
 }
 
 .daysContainer__week {
-    width: 50px;
+    width: 45px;
     color: rgb(20, 0, 136);
     text-align: center;
     font-weight: bold;
 }
 
 .daysTablet {
-    width: 350px;
+    width: 315px;
     height: 110px;
     overflow: hidden;
 }
 
 .dayCell {
-    width: 50px;
+    width: 45px;
     display: inline-block;
     text-align: center;
 }
