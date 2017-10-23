@@ -55,7 +55,9 @@ footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 
 .daysContainer__week {
     width: 50px;
+    color: rgb(20, 0, 136);
     text-align: center;
+    font-weight: bold;
 }
 
 .daysTablet {
