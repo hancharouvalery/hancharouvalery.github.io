@@ -25,6 +25,19 @@ footer, header, menu, nav, section, time, mark, audio, video, details, summary {
     width: 15%;
 }
 
+.headerMonth__prev_none {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+}
+
+.headerMonth__prev_none:hover {
+    cursor: pointer;
+}
+
+
 .headerMonth__monthName {
     width: 50%;
     text-align: center;
