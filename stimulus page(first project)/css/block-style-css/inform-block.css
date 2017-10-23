@@ -1,0 +1,44 @@
+.ht-inform-sector__par {
+    padding: 1% 0;
+    color: #252b27;
+}
+
+.ht-inform-sector__par_custom-font {
+    font-size: 2.5em;
+    opacity: .9;
+}
+
+.ht-inform-sector__par_opacity {
+    opacity: .6;
+}
+
+.ht-inform-sector__name {
+    font-weight: bold;
+}
+
+.ht-inform-sector__hyphen {
+    white-space: nowrap;
+}
+
+.ht-inform-sector__button {
+    margin: 3% 0 0 0;
+}
+
+.ht-inform-sector__start-button {
+    display: inline-block;
+    padding: 10px 35px;
+    color: #28292d;
+    border: 2px solid #28292d;
+    border-radius: 30px;
+    font-size: .8em;
+    font-weight: bold;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    opacity: .9;
+}
+
+.ht-inform-sector__start-button:hover {
+    color: #dbb66f;
+    border-color: #dbb66f;
+}

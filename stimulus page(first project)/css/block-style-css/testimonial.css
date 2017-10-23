@@ -1,0 +1,65 @@
+.ht-testimonial__text-header {
+    font-size: 2.5em;
+}
+
+.ht-testimonial__text {
+    margin: 3% 0 7% 0;
+}
+
+.ht-testimonial__input {
+    display: block;
+    width: 100%;
+    margin: 4% 0 2% 0;
+    padding: 7px 0 7px 7px;
+    color: #ECEBEB;
+    background-color: #e9714c;
+    border: none;
+    border-bottom: 1px solid #e5ab57;
+    font-family: 'SourseSansPro';
+    font-size: 1.1em;
+    outline: none;
+}
+
+.ht-testimonial__message {
+    display: block;
+    width: 100%;
+    margin: 4% 0 2% 0;
+    color: #ECEBEB;
+    padding: 7px 0 7px 7px;
+    background-color: #e9714c;
+    border: none;
+    border-bottom: 1px solid #e5ab57;
+    font-family: 'SourseSansPro';
+    font-size: 1.1em;
+    outline: none;
+}
+
+.ht-testimonial__input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ECEBEB;
+}
+
+.ht-testimonial__input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ECEBEB;
+}
+
+.ht-testimonial__message::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ECEBEB;
+}
+
+.ht-testimonial__message:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ECEBEB;
+}
+
+.ht-testimonial__button {
+    margin: 3% 0;
+    padding: 10px 15%;
+    color: #2C2C2C;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.ht-testimonial__button:hover {
+    cursor: pointer;
+}

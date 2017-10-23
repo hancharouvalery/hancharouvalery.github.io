@@ -1,0 +1,10 @@
+.ht-logo-sector__logo-name {
+    margin: 3% 0 0 25%;
+}
+
+.ht-logo-sector__logo-name_font {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px white;
+    opacity: .7;
+}
