@@ -69,6 +69,7 @@ footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 
 .dayCell {
     width: 45px;
+    height: 18px;
     display: inline-block;
     text-align: center;
 }
